@@ -1,10 +1,10 @@
-import NavBar from '@/modules/nav_bar';
+import Header from '@/modules/header';
 import React from 'react';
 
 const Layout = ({ children }) => {
     return (
         <>
-            <NavBar />
+            <Header />
             <main>{children}</main>
         </>
     );
