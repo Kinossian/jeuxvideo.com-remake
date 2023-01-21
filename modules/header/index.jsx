@@ -12,7 +12,7 @@ const Header = () => {
     return (
         <header className=''>
             <div className='bg-zinc-900 text-gray-100'>
-                <nav className='flex items-center justify-between max-w-screen-lg mx-auto text-gray-100 h-14'>
+                < nav className='flex items-center justify-between max-w-screen-lg mx-auto text-gray-100 h-14' >
                     <div className='flex items-center'>
 
                         <Burger isNav={isNav} onClick={() => setIsNav(!isNav)} />
@@ -37,7 +37,7 @@ const Header = () => {
                         <NavBar2 />
                     </nav>
                 </div>
-            </div>
+            </div >
         </header >
     );
 };
