@@ -4,7 +4,7 @@ import { BsArrowRight } from 'react-icons/Bs';
 
 const NavBar2 = () => {
     return (
-        <ul className="lg:flex lg:w-full">
+        <ul className=" lg:flex lg:w-full z-50 lg:bg-inherit pt-10 lg:pt-0 bg-zinc-900">
             <li className="nav-bar-2">
                 <Link href="">PC</Link>
             </li>
@@ -41,7 +41,7 @@ const NavBar2 = () => {
             <li className="nav-bar-2">
                 <Link href="">FPS</Link>
             </li>
-            <li className="flex items-center text-sm px-2 rounded ml-2 bg-sky-600">
+            <li className="flex items-center text-sm px-2 rounded h-10 lg:h-auto lg:ml-2 bg-sky-600">
                 <Link className="flex items-center" href="">Les nouveautés du PS PLUS <BsArrowRight className="ml-2" /></Link>
             </li>
         </ul >

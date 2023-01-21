@@ -4,19 +4,33 @@
 
 @layer components {
     .title-menu {
-        @apply flex items-center lg:justify-center py-2  lg:px-2 justify-start w-40 lg:w-full rounded font-medium hover:bg-gray-700;
+        @apply flex items-center lg:justify-center pl-2  py-2  lg:px-2 justify-start w-60 lg:w-full lg:rounded font-medium hover:bg-gray-700;
     }
     .sous-menu-container {
-        @apply hidden group-hover:block absolute lg:left-auto left-20 z-20 rounded bg-zinc-900  text-gray-200 pb-1;
+        @apply hidden group-hover:block absolute lg:left-auto left-20 z-50 rounded bg-zinc-900  text-gray-200 pb-1;
     }
     .li-nav-1 {
         @apply flex justify-between w-full lg:w-auto lg:block;
     }
     .nav-bar-2 {
-        @apply rounded  text-gray-200 pb-1 hover:bg-gray-700 flex items-center px-2;
+        @apply lg:rounded w-60 lg:w-auto  text-gray-200 pb-1 hover:bg-gray-700 bg-zinc-900 lg:bg-inherit flex items-center px-2 font-light;
+    }
+    .icon-in-card {
+        @apply w-8 rounded-full border text-xs mx-1 text-gray-100 py-0 px-1 text-[10px] flex justify-center;
     }
 }
 
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+
+/* For IE, Edge and Firefox */
+.scrollbar-hide {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
 html {
-    background-color: #0b0f19;
+    /* background-color: #0b0f19; */
+    background-color: #1e2538;
 }

@@ -4,7 +4,7 @@ import { BsArrowRight } from 'react-icons/Bs';
 
 const DropDownMenu = ({ obj }) => {
     return (
-        <li className='flex w-52 justify-between items-center hover:bg-gray-700'>
+        <li className='flex w-52 justify-between items-center z-[400] bg-gray-800 hover:bg-gray-700'>
             <Link className={`
             w-full h-full
             px-4 py-4

@@ -6,10 +6,11 @@ import Link from 'next/link';
 const NavBar1 = ({ isNav }) => {
     return (
         <ul className={`
+        z-[100]
         absolute lg:relative
         top-14 left-0 lg:top-0
         bg-zinc-900
-        lg:w-full h-full w-60
+        lg:w-full h-[270px] lg:h-full w-60
         flex-col lg:items-center items-start text-sm justify-start
         lg:flex lg:flex-row
             ${isNav ? "flex" : "hidden"}

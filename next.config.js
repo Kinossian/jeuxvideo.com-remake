@@ -10,7 +10,7 @@ const nextConfig = {
         protocol: 'https',
         hostname: 'image.jeuxvideo.com',
         port: '',
-        pathname: '/medias-md/**',
+        pathname: `/**/**`,
       },
     ],
   },
