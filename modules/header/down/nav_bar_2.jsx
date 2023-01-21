@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { BsArrowRight } from 'react-icons/Bs';
+import { BsArrowRight } from 'react-icons/bs';
 
 
 const NavBar2 = () => {
