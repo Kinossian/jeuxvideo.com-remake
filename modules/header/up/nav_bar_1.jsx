@@ -1,6 +1,6 @@
 import DropDownMenu from './drop_down_menu';
 import { actus, forums, hightech, jeux, soldes, vidéo } from './db';
-import { GoTriangleDown } from 'react-icons/Go';
+import { GoTriangleDown } from 'react-icons/go';
 import Link from 'next/link';
 
 const NavBar1 = ({ isNav }) => {

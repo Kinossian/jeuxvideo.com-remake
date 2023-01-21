@@ -1,5 +1,5 @@
-import { AiOutlineSearch } from 'react-icons/Ai';
-import { BiUserCircle, BiMoon } from 'react-icons/Bi';
+import { AiOutlineSearch } from 'react-icons/ai';
+import { BiUserCircle, BiMoon } from 'react-icons/bi';
 
 const SearchConectTheme = () => {
     return (
