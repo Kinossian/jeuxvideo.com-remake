@@ -7,7 +7,7 @@ const EnCeMoment = () => {
         <div className='bg-zinc-800'>
             <h3 className='pl-6 text-zinc-200 font-bold'>EN CE MOMENT</h3>
             <ButtonContainer />
-            <div className="mx-4 flex flex-col justify-center">
+            <div className="flex flex-col justify-center">
                 <CardContainerUp />
                 <CardContainerDown />
             </div>
