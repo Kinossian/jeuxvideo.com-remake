@@ -2,12 +2,12 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 
-const CardDown = ({ href }) => {
+const CardDown = ({ href, image }) => {
     return (
         <Link href={href} className='group snap-start '>
             <Image
                 className='w-full h-1/2 object-cover object-center rounded'
-                src="https://image.jeuxvideo.com/medias-lg/167360/1673601192-9020-card.png"
+                src={image}
                 alt="image"
                 height={400}
                 width={400}

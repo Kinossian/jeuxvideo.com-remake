@@ -2,12 +2,12 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 
-const CardDerniereJV = () => {
+const CardDerniereJV = ({ image }) => {
     return (
         <Link href="/" className='group flex w-full h-20'>
             <Image
                 className='w-20 h-20 object-cover rounded'
-                src="https://image.jeuxvideo.com/medias-lg/167360/1673601192-9020-card.png"
+                src={image}
                 alt='photo'
                 width={400}
                 height={400}
