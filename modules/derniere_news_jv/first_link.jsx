@@ -7,7 +7,7 @@ const FirstLink = ({ href }) => {
         <Link href={href} className='group flex relative z-[1] min-w-full h-72 lg:h-68  lg:w-56 '>
             <Image
                 className='w-full h-full object-cover object-center lg:rounded'
-                src="https://image.jeuxvideo.com/medias-lg/167360/1673601192-9020-card.png"
+                src="https://image.jeuxvideo.com/medias-lg/167464/1674644291-7569-card.jpeg"
                 alt="image"
                 height={400}
                 width={400}
